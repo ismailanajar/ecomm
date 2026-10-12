@@ -1,4 +1,4 @@
-import { Role } from "../generated/prisma/client";
+import { Role } from "@generated/client";
 import bcrypt from "bcryptjs";
 import { prisma } from "../src/lib/prisma";
 

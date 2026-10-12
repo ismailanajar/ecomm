@@ -7,7 +7,7 @@ import ProductCard from '@/components/ProductCard';
 import HeroSlider from '@/components/HeroSlider';
 import { getSettings } from '@/lib/settings';
 import { formatPrice } from '@/lib/currency';
-import { Prisma } from '@prisma/client';
+import { Prisma } from '@generated/client';
 import {
   Sparkles,
   SlidersHorizontal,

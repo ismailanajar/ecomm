@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { Role } from '@prisma/client';
+import { Role } from '@generated/client';
 
 export async function PUT(req: Request, props: { params: Promise<{ id: string }> }) {
   try {

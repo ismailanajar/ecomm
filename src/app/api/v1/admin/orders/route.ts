@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { OrderStatus } from '@prisma/client';
+import { OrderStatus } from '@generated/client';
 
 // GET: Fetch all orders for the admin console (secured by middleware)
 export async function GET(req: Request) {
