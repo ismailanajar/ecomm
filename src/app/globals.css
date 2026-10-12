@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root {
+  --background: #eaeded; /* Amazon standard light gray background */
+  --foreground: #0f1111; /* Amazon dark text */
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), "Amazon Ember", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
